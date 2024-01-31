@@ -1,0 +1,32 @@
+.sendotp{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px 60px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+input{
+    max-width: 200px;
+    margin: 20px;
+   
+}
+button{
+    max-width: 200px;
+    margin:10px 20px;
+}
+.inputs{
+    display: flex;
+
+}
+.digitInput{
+    display: inline;
+    max-width: 25px;
+    margin : 4px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
