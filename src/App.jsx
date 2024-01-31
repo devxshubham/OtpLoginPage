@@ -51,6 +51,7 @@ function Login(){
       }}/>
       <input className='digitInput' type="text" autoFocus={count == 3} onChange={()=>{
         setCount(count+1);
+        
       }}/>
     </div>
 
