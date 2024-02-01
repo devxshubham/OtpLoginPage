@@ -13,7 +13,9 @@
 input{
     max-width: 200px;
     margin: 20px;
-   
+   border-radius: 7px;
+   height: 25px;
+   text-align: center;
 }
 button{
     max-width: 200px;
@@ -21,7 +23,7 @@ button{
 }
 .inputs{
     display: flex;
-
+    padding: 20px 10px;
 }
 .digitInput{
     display: inline;
@@ -29,4 +31,16 @@ button{
     margin : 4px;
     background-color: rgb(45, 45, 45);
     color: white;
+}
+h6{
+    margin: 2px;
+}
+#editButton{
+    display: inline-block;
+    margin: 2px;
+    padding: 0px;
+}
+p{
+    margin: 0px 2px;
+    display: inline;
 }
