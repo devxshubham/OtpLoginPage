@@ -51,6 +51,7 @@ function Login( {number} ){
   
   }
 
+  
   if(values.length == 1) inputRef2.current.focus()
   else if(values.length == 2) inputRef3.current.focus()
   else if(values.length == 3) inputRef4.current.focus()
